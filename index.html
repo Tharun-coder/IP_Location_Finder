@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Location</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm col-lg col-md col-xl">
+          <h2>
+            IP Location Finder
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </h2>
+        </div>
+      </div>
+      <div class="row search">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 tab1">
+          <label for="IP">Provide your IP Here</label>
+          <input type="text" name="IP" id="IP" required /> <br />
+          <span class="ref">[ Eg. IP - 11.0.12.0 ]</span>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <button class="btn btn-primary" onclick="getData()">
+            Get Details
+          </button>
+        </div>
+      </div>
+      <div class="row information"></div>
+      <div class="row footer">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <p>
+            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021
+            Coding Hub Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 links">
+          <a href="https://www.facebook.com/tharun.kumar.3705" target="_blank"
+            ><i class="fa fa-facebook-official" aria-hidden="true"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i
+          ></a>
+          <a href="https://github.com/Tharun-coder"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tharun-kumar-943291121"
+            target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

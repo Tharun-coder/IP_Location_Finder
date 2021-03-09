@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://www.apple.com/newsroom/images/product/apps/standard/Apple_Maps-Update_01302020_inline.gif.large.gif");
+}
+
+.col {
+  padding: 0px;
+}
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin: 0px;
+  letter-spacing: 0.2em;
+}
+
+.tab1 {
+  text-align: center;
+}
+
+.tab1 label {
+  color: white;
+  font-weight: bold;
+}
+.tab1 input {
+  padding: 5px;
+  margin-left: 15px;
+  width: 300px;
+  cursor: pointer;
+  border: rgb(51, 49, 49) 2px solid;
+}
+
+.search {
+  background-color: gray;
+  padding: 10px 0px;
+}
+
+table {
+  padding: 5px;
+  margin: 5px;
+  line-height: 40px;
+}
+
+table tr td {
+  width: 200px;
+  padding: 5px;
+  font-style: italic;
+}
+
+table tr .param {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.information {
+  background-color: white;
+  opacity: 0.8;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 400px;
+}
+
+.ref {
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: lightgrey;
+}
+
+.footer p {
+  margin-bottom: 0px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.links {
+  text-align: right;
+}
+
+.links a {
+  padding-left: 10px;
+}
+
+.links a i {
+  color: black;
+}
